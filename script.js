@@ -1,7 +1,7 @@
-let score=0
+let score = 0;
 
-let scoreHTML=document.getElementById("score")
-function increase() {score =score+1
-    scoreHTML.innerHTML=score
-    
+function increase(name, score) {
+  let scoreHTML = document.getElementById(name);
+  score = parseInt(score) + 1;
+  scoreHTML.innerHTML = score;
 }
