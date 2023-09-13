@@ -1,16 +1,25 @@
-h1{ font-family: sans-serif;
-color:black;} 
+h1 {
+  font-family: sans-serif;
+  color: black;
+}
 
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: dimgray;
+}
+h3 {
+  font-size: medium;
+  background-color: bisque;
+}
 
+ol {
+  font-family: "Courier New", Courier, monospace;
+  color: cadetblue;
+  bottom: auto;
+  background-color: darkslategray;
+  text-align: center;
+}
 
-h2{ font-family: Arial, Helvetica, sans-serif; background-color: dimgray;}
-h3{font-size: medium; background-color: bisque;}
-
-ol{ font-family: 'Courier New', Courier, monospace;
-color: cadetblue;
-bottom: auto;
-background-color: darkslategray;
-text-align: center;}
-
-h4{ color: bisque;}
-
+h4 {
+  color: bisque;
+}
